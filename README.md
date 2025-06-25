@@ -226,3 +226,13 @@ V2.0版本新增了批量创建环境功能，无需手动创建多开结构：
 
 🔄 持续更新中
 
+
+## macOS 使用
+在 macOS 上运行时，可执行 `python chrome_manager_macos.py`。首次使用请先安装額外依賴：
+
+```bash
+pip install psutil pynput
+```
+
+脚本会在指定目录创建启动脚本，并示例性地排列 Chrome 窗口。
+
